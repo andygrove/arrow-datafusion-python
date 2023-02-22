@@ -63,7 +63,7 @@ git push apache 0.7.0-rc1
 ### Create a source release
 
 ```bash
-./dev/release/create_tarball 0.7.0 1
+GH_TOKEN=<token> ./dev/release/create-tarball.sh 0.7.0 1
 ```
 
 This will also create the email template to send to the mailing list. Here is an example:
